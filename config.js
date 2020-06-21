@@ -38,8 +38,9 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/tentang', // add trailing slash if enabled above
+      '/teams',
+      '/guidelines',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
@@ -48,7 +49,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://hasura.io/learn/'>Dolanlab's Handbook</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
